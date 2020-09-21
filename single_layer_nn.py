@@ -18,16 +18,6 @@ trainpath=sys.argv[1]
 testpath=sys.argv[2]
 nhidden=int(sys.argv[3])
 
-#LocalPaths
-#nhidden=30
-#trainpath='/Users/dogacanyilmaz/Dropbox/cs677/liblineartrain.txt'
-#testpath='/Users/dogacanyilmaz/Dropbox/cs677/liblineartest.txt'
-#trainpath='/Users/dogacanyilmaz/Dropbox/cs677/ion.train.0.txt'
-#testpath='/Users/dogacanyilmaz/Dropbox/cs677/ion.test.0.txt'
-#trainpath='/Users/dogacanyilmaz/Dropbox/cs677/xor_train.txt'
-#testpath='/Users/dogacanyilmaz/Dropbox/cs677/xor_test.txt'
-
-
 
 #read data
 #I want to both read regular data in the course website
