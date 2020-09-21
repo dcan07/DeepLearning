@@ -14,6 +14,4 @@ module load intel/19.1.0.166
 
 python hw9.py  hw9model > v1
 python hw9test.py hw9model hw9 > v2
-#tar -cvf hw9.tar hw9
-#cp hw9.tar /afs/cad/u/d/y/dy234
-#yes | cp hw9.tar /afs/cad/u/d/y/dy234
+
