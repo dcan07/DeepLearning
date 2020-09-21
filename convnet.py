@@ -14,10 +14,6 @@ from scipy import signal
 
 ########################################
 ### Read images from train directory ###
-#LocalPaths
-#traindir='/Users/dogacanyilmaz/Dropbox/cs677/traindir/'
-#testdir='/Users/dogacanyilmaz/Dropbox/cs677/testdir/'
-
 #AFS Paths
 traindir = sys.argv[1]
 testdir = sys.argv[2]
@@ -43,9 +39,6 @@ sigmoid = lambda x: 1/(1+np.exp(-x))
 c = np.random.rand(2,2)
 print("c=",c)
 
-# Test with c in the course webpage to see if it is the same
-#c=np.array([[0.29210957,0.49757554],[0.90007793, 0.76089559]])
-#Output is same as in the course webpage
 
 epochs = 1000
 eta = .1
