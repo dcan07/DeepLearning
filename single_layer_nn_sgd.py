@@ -25,20 +25,6 @@ batchsize=int(sys.argv[4])
 stepsize=0.001
 epochs=1000
 
-#LocalPaths
-#nhidden=3
-#batchsize=5
-#trainpath='/Users/dogacanyilmaz/Dropbox/cs677/liblineartrain.txt'
-#testpath='/Users/dogacanyilmaz/Dropbox/cs677/liblineartest.txt'
-#trainpath='/Users/dogacanyilmaz/Dropbox/cs677/ion.train.0.txt'
-#testpath='/Users/dogacanyilmaz/Dropbox/cs677/ion.test.0.txt'
-#trainpath='/Users/dogacanyilmaz/Dropbox/cs677/xor_train.txt'
-#testpath='/Users/dogacanyilmaz/Dropbox/cs677/xor_test.txt'
-#trainpath='/Users/dogacanyilmaz/Dropbox/cs677/bc.train.0.txt'
-#testpath='/Users/dogacanyilmaz/Dropbox/cs677/bc.test.0.txt'
-
-
-
 #read data
 #I want to both read regular data in the course website
 #and also liblinear data as in the description
