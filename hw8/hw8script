@@ -1,0 +1,22 @@
+#!/bin/bash
+#SBATCH --job-name=hw8
+#SBATCH --output=hw8op.%j.out # %j expands to slurm JobID
+#SBATCH --nodes=1
+#SBATCH --tasks-per-node=20
+#SBATCH --partition=datasci
+#SBATCH --gres=gpu:1
+
+#purge and load the correct modules
+module purge > /dev/null 2>&1
+module load cuda
+module load python/3.8
+module load intel/19.1.0.166
+
+
+#python train.py /home/u/usman/cs_677_datasets/chest_xray/train hw8model_chest_xray > f1
+python test.py /home/u/usman/cs_677_datasets/chest_xray/test hw8model_chest_xray > f2
+#python train.py /home/u/usman/cs_677_datasets/fruits-360/Training hw8model_fruits > f3
+python test.py /home/u/usman/cs_677_datasets/fruits-360/Test hw8model_fruits > f4
+#python train.py /home/u/usman/cs_677_datasets/flowers/Train hw8model_flowers > f5
+python test.py /home/u/usman/cs_677_datasets/flowers/Test hw8model_flowers > f6
+

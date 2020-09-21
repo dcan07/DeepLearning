@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH --job-name=hw10
+#SBATCH --output=hw10op.%j.out # %j expands to slurm JobID
+#SBATCH --nodes=1
+#SBATCH --tasks-per-node=20
+#SBATCH --partition=datasci
+#SBATCH --gres=gpu:1
+
+#purge and load the correct modules
+module purge > /dev/null 2>&1
+module load cuda
+module load python/3.8
+module load intel/19.1.0.166
+
+
+python wbattack.py test_image.npy test_label.npy mlp20node_model2-1 > f1

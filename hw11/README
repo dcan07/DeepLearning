@@ -1,0 +1,100 @@
+The similar words from real and fake data are quite different
+
+Data:Real Size:300 Windows:2 ModelName:hw11modelRealDataSize300Windows2
+hillary  :  mrs  ,  chelsea  ,  accompanies  ,  outspent  ,  rodham
+trump  :  trumps  ,  rumsfeld  ,  mcgahn  ,  mac  ,  garin
+obama  :  obamas  ,  netanyahu  ,  reagan  ,  uhuru  ,  demolish
+immigration  :  reform  ,  comprehensive  ,  proposals  ,  abortion  ,  entitlement
+
+Data:Real Size:300 Windows:5 ModelName:hw11modelRealDataSize300Windows5
+hillary  :  mrs  ,  sussman  ,  erase  ,  chelsea  ,  opponent
+trump  :  trumps  ,  sussman  ,  businessman  ,  rumsfeld  ,  billionaire
+obama  :  obamas  ,  rouhani  ,  elect  ,  uhuru  ,  ghani
+immigration  :  reform  ,  comprehensive  ,  proposals  ,  policies  ,  advocates
+
+Data:Real Size:1000 Windows:2 ModelName:hw11modelRealDataSize1000Windows2
+hillary  :  mrs  ,  chelsea  ,  accompanies  ,  rodham  ,  sanders
+trump  :  trumps  ,  rumsfeld  ,  mac  ,  mcgahn  ,  sussman
+obama  :  obamas  ,  netanyahu  ,  demolish  ,  petro  ,  uhuru
+immigration  :  comprehensive  ,  reform  ,  proposals  ,  entitlement  ,  proposal
+
+Data:Real Size:1000 Windows:5 ModelName:hw11modelRealDataSize1000Windows5
+hillary  :  mrs  ,  chelsea  ,  sanders  ,  sussman  ,  maiden
+trump  :  trumps  ,  rumsfeld  ,  sussman  ,  billionaire  ,  businessman
+obama  :  obamas  ,  rouhani  ,  recep  ,  petro  ,  ghani
+immigration  :  reform  ,  comprehensive  ,  proposal  ,  amnesty  ,  plan
+
+Data:Fake Size:300 Windows:2 ModelName:hw11modelFakeDataSize300Windows2
+hillary  :  hilary  ,  mrs  ,  bill  ,  peron  ,  ineligible
+trump  :  trumps  ,  desorcy  ,  wesley  ,  gracious  ,  sanders
+obama  :  obamas  ,  recep  ,  bush  ,  reagan  ,  tayyip
+immigration  :  positions  ,  domestic  ,  governmental  ,  institutions  ,  establish
+
+Data:Fake Size:300 Windows:5 ModelName:hw11modelFakeDataSize300Windows5
+hillary  :  mrs  ,  rocking  ,  hilary  ,  disliked  ,  unfavorably
+trump  :  trumps  ,  sanders  ,  ducks  ,  candidate  ,  brexit
+obama  :  obamas  ,  bush  ,  reagan  ,  resolves  ,  george
+immigration  :  principle  ,  particularly  ,  vested  ,  opposed  ,  signifies
+
+Data:Fake Size:1000 Windows:2 ModelName:hw11modelFakeDataSize1000Windows2
+hillary  :  bill  ,  hilary  ,  mrs  ,  confidant  ,  slog
+trump  :  trumps  ,  desorcy  ,  ducks  ,  duck  ,  kenny
+obama  :  obamas  ,  george  ,  elects  ,  bush  ,  rodrigo
+immigration  :  positions  ,  governmental  ,  constitutional  ,  institutions  ,  establish
+
+Data:Fake Size:1000 Windows:5 ModelName:hw11modelFakeDataSize1000Windows5
+hillary  :  confidant  ,  mrs  ,  slog  ,  mckesson  ,  catches
+trump  :  trumps  ,  sanders  ,  wesley  ,  candidate  ,  ducks
+obama  :  obamas  ,  bush  ,  reagan  ,  barack  ,  elected
+immigration  :  servants  ,  principle  ,  existing  ,  constrain  ,  protecting
+
+########STEMMED DATA###########
+
+Stemmed Data:Real Size:300 Windows:2 ModelName:hw11modelRealDataSize300Windows2Stemmed
+hillari  :  mrs  ,  rodham  ,  chelsea  ,  sanderss  ,  sander
+trump  :  rumsfeld  ,  businessman  ,  sussman  ,  mac  ,  sanderss
+obama  :  netanyahu  ,  reagan  ,  eisenhow  ,  donnelli  ,  holland
+immigr  :  undocu  ,  citizenship  ,  deport  ,  illeg  ,  advoc
+
+Stemmed Data:Real Size:300 Windows:5 ModelName:hw11modelRealDataSize300Windows5Stemmed
+hillari  :  mrs  ,  chelsea  ,  sander  ,  souljah  ,  toe
+trump  :  businessman  ,  deconstruct  ,  candidaci  ,  billionair  ,  frontrunn
+obama  :  reagan  ,  netanyahu  ,  rouhani  ,  recep  ,  bashar
+immigr  :  undocu  ,  illeg  ,  deport  ,  citizenship  ,  unauthor
+
+Stemmed Data:Real Size:1000 Windows:2 ModelName:hw11modelRealDataSize1000Windows2Stemmed
+hillari  :  mrs  ,  chelsea  ,  rodham  ,  faint  ,  sanderss
+trump  :  rumsfeld  ,  mcgahn  ,  mac  ,  businessman  ,  sussman
+obama  :  netanyahu  ,  reagan  ,  holland  ,  recep  ,  petro
+immigr  :  undocu  ,  citizenship  ,  illeg  ,  deport  ,  birthright
+
+Stemmed Data:Real Size:1000 Windows:5 ModelName:hw11modelRealDataSize1000Windows5Stemmed
+hillari  :  mrs  ,  sander  ,  trounc  ,  sanderss  ,  chelsea
+trump  :  businessman  ,  candidaci  ,  billionair  ,  mogul  ,  frontrunn
+obama  :  overstep  ,  holland  ,  netanyahu  ,  nixon  ,  unfit
+immigr  :  undocu  ,  illeg  ,  deport  ,  citizenship  ,  unauthor
+
+Stemmed Data:Fake Size:300 Windows:2 ModelName:hw11modelFakeDataSize300Windows2Stemmed
+hillari  :  mrs  ,  hilari  ,  rodham  ,  bill  ,  foundat
+trump  :  duck  ,  desorci  ,  landslid  ,  poroshenko  ,  rhetor
+obama  :  bush  ,  rodrigo  ,  reagan  ,  recep  ,  vice
+immigr  :  illeg  ,  respect  ,  deport  ,  oppress  ,  undocu
+
+Stemmed Data:Fake Size:300 Windows:5 ModelName:hw11modelFakeDataSize300Windows5Stemmed
+hillari  :  mrs  ,  scandal  ,  bill  ,  improb  ,  quid
+trump  :  rhetor  ,  duck  ,  sander  ,  gosh  ,  brexit
+obama  :  bush  ,  dlc  ,  reagan  ,  nixon  ,  recep
+immigr  :  deport  ,  illeg  ,  undocu  ,  minor  ,  respect
+
+Stemmed Data:Fake Size:1000 Windows:2 ModelName:hw11modelFakeDataSize1000Windows2Stemmed
+hillari  :  mrs  ,  hilari  ,  bill  ,  rodham  ,  ms
+trump  :  duck  ,  sander  ,  repeat  ,  landslid  ,  wanquan
+obama  :  bush  ,  reagan  ,  recep  ,  georg  ,  rodrigo
+immigr  :  illeg  ,  deport  ,  oppress  ,  mandat  ,  respect
+
+Stemmed Data:Fake Size:1000 Windows:5 ModelName:hw11modelFakeDataSize1000Windows5Stemmed
+hillari  :  mrs  ,  mckesson  ,  scandal  ,  bill  ,  hilari
+trump  :  improb  ,  sander  ,  berni  ,  brexit  ,  rhetor
+obama  :  bush  ,  reagan  ,  dlc  ,  ronald  ,  vice
+immigr  :  deport  ,  respect  ,  minor  ,  illeg  ,  citizen
+

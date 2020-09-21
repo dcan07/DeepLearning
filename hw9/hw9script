@@ -1,0 +1,19 @@
+#!/bin/bash
+#SBATCH --job-name=hw9
+#SBATCH --output=hw9op.%j.out # %j expands to slurm JobID
+#SBATCH --nodes=1
+#SBATCH --tasks-per-node=10
+#SBATCH --partition=datasci
+#SBATCH --gres=gpu:1
+
+#purge and load the correct modules
+module purge > /dev/null 2>&1
+module load cuda
+module load python/3.8
+module load intel/19.1.0.166
+
+python hw9.py  hw9model > v1
+python hw9test.py hw9model hw9 > v2
+#tar -cvf hw9.tar hw9
+#cp hw9.tar /afs/cad/u/d/y/dy234
+#yes | cp hw9.tar /afs/cad/u/d/y/dy234
