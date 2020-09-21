@@ -17,7 +17,7 @@ Convolutional network in Keras to train the Mini-ImageNet dataset
 ### HW7
 Convolutional network in Keras to train the Mini-ImageNet dataset using transfer learning
 ### HW8
-Image classification for three Kaggle datasets on the course website with convolutional networks
+Image classification for three Kaggle datasets on the course website with convolutional networks using ImageDataGenerator
 ### HW9
 GAN in Keras to generate MNIST images
 ### HW10a
