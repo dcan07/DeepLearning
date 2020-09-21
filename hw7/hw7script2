@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH --job-name=hw7
+#SBATCH --output=hw7op.%j.out # %j expands to slurm JobID
+#SBATCH --nodes=1
+#SBATCH --tasks-per-node=10
+#SBATCH --partition=datasci
+#SBATCH --gres=gpu:1
+
+#purge and load the correct modules
+module purge > /dev/null 2>&1
+module load cuda
+module load python/3.8
+module load intel/19.1.0.166
+
+python train2.py sub_imagenet/train hw7model2 > f11
+python test2.py sub_imagenet/val hw7model2 > f21
