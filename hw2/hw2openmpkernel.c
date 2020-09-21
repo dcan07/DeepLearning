@@ -3,6 +3,7 @@
 #include <math.h>
 #include "hw2openmpkernel.h"
 
+
 void kernel(unsigned int rows,unsigned int cols,float *data,float *w,float *results, unsigned int jobs){
 	float dp=0;
 	//get the tid
