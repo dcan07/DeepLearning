@@ -2,32 +2,33 @@
 
 Homeworks and Projects in the NJIT CS 677 Deep Learning Course. The detailed descriptions are in https://web.njit.edu/~usman/courses/cs677_summer20/index.html
 
-## HW1
+### HW1
 CUDA program for computing the dot product of a vector in parallel with each row of a matrix
 ### HW2
 Gradient descent for minimizing the least squares loss
-### HW3
-Implement SVM hinge loss gradient descent 
-### HW3b
-Implement SVM hinge loss gradient descent with regularization
-### HW4
-Logistic discrimination gradient descent algorithm
-### HW5 - Hinge adaptive eta
-Implement SVM hinge loss gradient descent with adaptive eta (learning rate)
+### HW3 - Single Layer NN 
+Single layer neural network with sigmoid activation
+### HW4 - Single Layer NN SGD
+Single layer neural network with sigmoid activation and stochastic gradient descent
+### HW5 - Convnet
+Neural network with a single 2x2 convolutional layer with stride 1 and global average pooling
 ### HW6
-Decision stump that determines the column with the best split for the CART decision tree algorithm
+Convolutional network in Keras to train the Mini-ImageNet dataset
 ### HW7
-Bagged decision stump
+Convolutional network in Keras to train the Mini-ImageNet dataset using transfer learning
 ### HW8
-K-means clustering
-## Project 1
-This is a simulated dataset of single nucleotide polymorphism (SNP) genotype data containing 29623 SNPs (total features). Amongst all SNPs are 15 causal ones which means they and neighboring ones discriminate between case and controls while remainder are noise. Discriminate between case and controls using minimum number of features. It is a feature selection project.
-## Project 2
-Random hyperplanes for classification with SVM
-## Project 3
-Time series prediction using linear regression and moving lookback window
-## Project 4
-Spam mail classification using SVM and TFIDF encoding
+Image classification for three Kaggle datasets on the course website with convolutional networks
+### HW9
+GAN in Keras to generate MNIST images
+### HW10a
+White box attack in Keras to a pretrained simple neural network
+### HW10b
+Black box attack in Keras to a pretrained simple neural network
+### HW11
+word2vec model from fake news dataset and a real news dataset using Gensim 
+### HW11
+Implement temporal convolutional neural network for time series prediction
+
 
 
 
